@@ -3,3 +3,7 @@
 == Introduction
 
 Scripts to create and manage the solution
+
+== Project structure
+
+

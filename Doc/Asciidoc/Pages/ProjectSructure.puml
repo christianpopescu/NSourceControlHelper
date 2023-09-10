@@ -1,0 +1,15 @@
+@startuml
+skinparam titleFontSize 14
+title
+  NSourceControlHelper
+  |_ NSourceControlHelper.sln
+  |_ SourceControlLibrary
+    |_ SourceControlLibrary.proj
+  |_ SourceControlLibrary.Test
+    |_ SourceControlLibrary.Test.proj
+  |_ SourceControlLibraryConsole
+    |_ SourceControlLibraryConsole.proj
+  |_ SourceControlLibraryGui
+    |_ SourceControlLibraryGui.proj
+end title
+@enduml
