@@ -40,6 +40,14 @@
                 Width = 40,
             };
 
+            var textView = new TextView()
+            {
+                X = 9,
+                Y = 10,
+                Width = 40,
+                Height = 10
+            };
+
             var actionButton = new Button()
             {
                 Text = "Do action",
@@ -50,9 +58,10 @@
             actionButton.Clicked += () =>
             {
                 outputText.Text = inputText.Text + " ++++ ";
+                textView.Text = textView.Text  + outputText.Text + @"\n\r";
             };
 
-            Add(aLabel,inputText,outputText,actionButton);
+            Add(aLabel,inputText,outputText,textView, actionButton);
         }
     }
 }
