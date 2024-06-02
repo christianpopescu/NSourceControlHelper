@@ -20,23 +20,23 @@
             var aLabel = new Label()
             {
                 Text = "Label Example",
-                X = 10,
-                Y = 10,
+                X = 1,
+                Y = 1,
 
             };
 
             var inputText = new TextField()
             {
-                X = 1,
-                Y = 2,
+                X = 30,
+                Y = 1,
                 Width = 20,
             };
 
             var outputText = new TextField()
             {
                 ReadOnly = true,
-                X = 2,
-                Y = 0,
+                X = 30,
+                Y = 3,
                 Width = 40,
             };
 
@@ -45,7 +45,9 @@
                 X = 9,
                 Y = 10,
                 Width = 40,
-                Height = 10
+                Height = 10,
+                Multiline = true
+                
             };
 
             var actionButton = new Button()
