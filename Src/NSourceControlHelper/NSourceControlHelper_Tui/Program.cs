@@ -50,6 +50,17 @@
                 
             };
 
+            var scrollView = new ScrollView() { AutoHideScrollBars = false,
+                X = 9,
+                Y = 10,
+                Width = 40,
+                Height = 10,
+                Visible = true,
+                ContentSize = new Size(10, 20)
+            };
+            scrollView.Add(textView);
+
+
             var actionButton = new Button()
             {
                 Text = "Do action",
@@ -63,7 +74,7 @@
                 textView.Text = textView.Text  + outputText.Text + @"\n\r";
             };
 
-            Add(aLabel,inputText,outputText,textView, actionButton);
+            Add(aLabel,inputText,outputText,scrollView, actionButton);
         }
     }
 }
